@@ -1,0 +1,36 @@
+.btn-1 {
+    text-decoration: none;
+    color: black;
+}
+
+.btn-2 {
+    text-decoration: none;
+    color: #07f;
+}
+
+.btn-3 {
+    text-decoration: none;
+    color: #07f;
+    border-bottom: 2px dashed #0077ff;
+}
+
+.btn-4 {
+    text-decoration: none;
+    color: #07f;
+    border-bottom: 2px dashed #0077ff;
+}
+
+.btn-4:hover {
+    border-bottom: 2px solid #0077ff;
+}
+
+.btn-5 {
+    text-decoration: none;
+    color: #07f;
+    transition: color .2s, background .2s;
+}
+
+.btn-5:hover {
+    background: #0077ff;
+    color: #fff;
+}
