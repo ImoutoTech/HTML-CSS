@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Button</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="../src/normalize.css">
+    <link rel="stylesheet" href="../src/main.css">
+</head>
+<body>
+<div id="main">
+    <div id="container">
+        <h2>Button 按钮</h2>
+        <p>有两种方式实现按钮，可以使用HTML的button标签，也可以将a标签包装成按钮的样子。</p>
+        <p>下面来试着实现一些基础效果：</p>
+        <h4>基础样式</h4>
+        <button>点点我</button>
+
+        <hr>
+
+        <h4>去除基本样式</h4>
+        <p>全部不要！还原成一个文本的样子</p>
+        <button class="btn-1">点点我</button>
+        <p>👆  <em>这里你修改了什么属性？</em></p>
+
+        <hr>
+
+        <h4>先来个边框&内边距</h4>
+        <p>什么颜色？边距多宽？</p>
+        <button class="btn-2">点点我</button>
+
+        <hr>
+
+        <h4>不喜欢直角边框？</h4>
+        <p>试试圆角</p>
+        <button class="btn-3">点点我</button><button class="btn-4">点点我</button><button class="btn-5">点点我</button>
+        <p>👆  <em>第三个的圆角是不是有点奇怪？要好好考虑圆角的度数</em></p>
+
+        <hr>
+
+        <h4>按钮的重要特征</h4>
+        <p>那就是鼠标指针</p>
+        <button class="btn-6">点点我</button>
+        <p>👆  <em>鼠标移动上来，反馈带来的体验是不是也不一样了</em></p>
+
+        <hr>
+
+        <h4>多彩按钮</h4>
+        <p>不要太单调~</p>
+        <button class="btn-7 blue">点点我</button><button class="btn-7 red">点点我</button><button class="btn-7 green">点点我</button>
+        <p>👆  <em>你发现了吗？鲜艳的颜色在较细的边框上的表现是不是没有灰色，黑色的表现好？不妨加粗试试看。</em></p>
+        <button class="btn-7 blue bolder">点点我</button><button class="btn-7 red bolder">点点我</button><button class="btn-7 green bolder">点点我</button>
+        <p>👆  <em>好像是好了一点哈，但是还是有那么一点奇怪。因为字重与边框的宽度有点对不上了，加大一些字重试试。</em></p>
+        <button class="btn-7 blue bolder bolder-font">点点我</button><button class="btn-7 red bolder bolder-font">点点我</button><button class="btn-7 green bolder bolder-font">点点我</button>
+
+        <hr>
+
+        <h4>还是反馈</h4>
+        <p>这次不是鼠标指针了</p>
+        <button class="btn-8 blue bolder bolder-font">点点我</button>
+        <p>👆  <em>鼠标移动上来，反馈带来的体验是不是也不一样了</em></p>
+
+        <hr>
+
+        <h4>试试别的</h4>
+        <p>看看一些UI框架中的按钮长啥样？<br>
+            <a target="_blank" href="https://www.antdv.com/components/button-cn/">ant</a>
+            <a target="_blank" href="https://element-plus.gitee.io/zh-CN/component/button.html">Element</a>
+        </p>
+    </div>
+</div>
+</body>
+</html>
