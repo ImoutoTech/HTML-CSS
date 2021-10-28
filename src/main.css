@@ -1,0 +1,30 @@
+#main {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#container {
+    width: 800px;
+    max-height: 90%;
+    overflow-y: auto;
+    padding: 30px;
+}
+
+hr {
+    overflow: hidden;
+    margin: 1rem 0;
+    padding: 0;
+    height: 0.125rem;
+    border: none;
+    background: #e7e7e7
+    repeating-linear-gradient(
+            -45deg,
+            #fff,
+            #fff 0.25rem,
+            transparent 0.25rem,
+            transparent 0.5rem
+    );
+}
